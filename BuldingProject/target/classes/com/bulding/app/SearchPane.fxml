@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="720.0" prefWidth="1280.0"
+	xmlns="http://javafx.com/javafx/8.0.171"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="com.bulding.app.SearchController">
+	<top>
+		<VBox prefHeight="205.0" prefWidth="1280.0"
+			BorderPane.alignment="CENTER">
+			<children>
+				<HBox prefHeight="118.0" prefWidth="1280.0">
+					<children>
+						<Label text="SEARCH BY : ">
+							<HBox.margin>
+								<Insets left="500.0" top="50.0" />
+							</HBox.margin>
+							<font>
+								<Font size="24.0" />
+							</font>
+						</Label>
+						<ComboBox fx:id="compoBox" onAction="#visibleFields"
+							prefWidth="150.0">
+							<HBox.margin>
+								<Insets left="20.0" top="55.0" />
+							</HBox.margin>
+						</ComboBox>
+					</children>
+				</HBox>
+				<HBox prefHeight="100.0" prefWidth="200.0">
+					<children>
+						<TextField fx:id="numberField">
+							<HBox.margin>
+								<Insets left="300.0" top="30.0" />
+							</HBox.margin>
+						</TextField>
+						<Label fx:id="fromLabel" text="From :">
+							<HBox.margin>
+								<Insets left="30.0" top="30.0" />
+							</HBox.margin>
+							<font>
+								<Font size="18.0" />
+							</font>
+						</Label>
+						<DatePicker fx:id="dateFrom" prefHeight="31.0"
+							prefWidth="162.0">
+							<HBox.margin>
+								<Insets left="10.0" top="30.0" />
+							</HBox.margin>
+						</DatePicker>
+						<Label fx:id="toLabel" text="To :">
+							<HBox.margin>
+								<Insets left="30.0" top="30.0" />
+							</HBox.margin>
+							<font>
+								<Font size="18.0" />
+							</font>
+						</Label>
+						<DatePicker fx:id="dateTo" prefHeight="31.0"
+							prefWidth="162.0">
+							<HBox.margin>
+								<Insets left="10.0" top="30.0" />
+							</HBox.margin>
+						</DatePicker>
+						<Button fx:id="buttonOk" mnemonicParsing="false"
+							onAction="#addRow" prefHeight="31.0" prefWidth="101.0"
+							text="Search">
+							<HBox.margin>
+								<Insets left="60.0" top="30.0" />
+							</HBox.margin>
+						</Button>
+					</children>
+				</HBox>
+			</children>
+		</VBox>
+	</top>
+	<center>
+		<TableView fx:id="infoTable" prefHeight="200.0"
+			prefWidth="200.0" BorderPane.alignment="CENTER">
+			<columns>
+				<TableColumn fx:id="columnId"
+					prefWidth="39.33335238695145" text="ID" />
+				<TableColumn fx:id="columnWindowId"
+					prefWidth="117.00001907348633" text="WINDOW ID" />
+				<TableColumn fx:id="columnCustomerName"
+					prefWidth="141.33334350585938" text="CUSTOMER NAME" />
+				<TableColumn fx:id="columnCustomerNumber"
+					prefWidth="169.66665649414062" text="CUSTOMER NUMBER" />
+				<TableColumn fx:id="columnDate" prefWidth="101.0"
+					text="DATE" />
+				<TableColumn fx:id="columnWindowWidth"
+					prefWidth="91.66668701171875" text="WIDTH" />
+				<TableColumn fx:id="columnWindowHeight"
+					prefWidth="95.66668701171875" text="HEIGHT" />
+				<TableColumn fx:id="columnWindowRollWidth"
+					prefWidth="115.33331298828125" text="ROLL WIDTH " />
+				<TableColumn fx:id="columnWindowRollHeight"
+					prefWidth="134.66668701171875" text="ROLL HEIGHT" />
+				<TableColumn fx:id="columnWindowState" prefWidth="269.0"
+					text="WINDOW STATE" />
+			</columns>
+		</TableView>
+	</center>
+	<bottom>
+		<Button fx:id="reportButton" mnemonicParsing="false"
+			onAction="#showReport" prefHeight="31.0" prefWidth="99.0"
+			text="REPORT" BorderPane.alignment="CENTER">
+			<BorderPane.margin>
+				<Insets bottom="10.0" top="10.0" />
+			</BorderPane.margin>
+		</Button>
+	</bottom>
+</BorderPane>

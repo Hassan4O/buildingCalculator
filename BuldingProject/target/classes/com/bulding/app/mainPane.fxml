@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="520.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bulding.app.mainController">
+   <children>
+      <Button layoutX="40.0" layoutY="63.0" mnemonicParsing="false" onAction="#setWidows" prefHeight="23.0" prefWidth="61.0" text="Enter" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="63.0" />
+      <TextField fx:id="customerNumberField" layoutX="534.0" layoutY="63.0" promptText="CUSTOMER NUMBER" AnchorPane.leftAnchor="534.0" AnchorPane.topAnchor="63.0">
+         <font>
+            <Font name="Lato Italic" size="15.0" />
+         </font></TextField>
+      <TextField fx:id="customerNameField" layoutX="334.0" layoutY="63.0" promptText="CUSTOMER NAME" AnchorPane.leftAnchor="334.0" AnchorPane.topAnchor="63.0">
+         <font>
+            <Font name="Lato Italic" size="15.0" />
+         </font></TextField>
+      <TextField fx:id="windowsNumber" layoutX="134.0" layoutY="63.0" promptText="WINDOWS NUMBER" AnchorPane.leftAnchor="134.0" AnchorPane.topAnchor="63.0">
+         <font>
+            <Font name="Lato Italic" size="15.0" />
+         </font></TextField>
+      <ListView fx:id="widowsList" layoutX="31.0" layoutY="126.0" prefHeight="322.0" prefWidth="425.0" AnchorPane.bottomAnchor="70.0" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="128.0" />
+      <TextField fx:id="squareMeterField" editable="false" layoutX="1051.0" layoutY="220.0" AnchorPane.rightAnchor="42.0" />
+      <TextField fx:id="usefulWindowHeightField" editable="false" layoutX="1097.0" layoutY="481.0" prefHeight="31.0" prefWidth="139.0" AnchorPane.rightAnchor="44.0" />
+      <TextField fx:id="linearMeterField" editable="false" layoutX="1050.0" layoutY="157.0" AnchorPane.rightAnchor="43.0" />
+      <TextField fx:id="usefulWindowWidthField" editable="false" layoutX="1097.0" layoutY="438.0" prefHeight="31.0" prefWidth="139.0" AnchorPane.rightAnchor="44.0" />
+      <TextField fx:id="totalWastageWidthField" editable="false" layoutX="1096.0" layoutY="311.0" prefHeight="31.0" prefWidth="139.0" AnchorPane.rightAnchor="45.0" />
+      <TextField fx:id="totalWastageHeightField" editable="false" layoutX="1097.0" layoutY="353.0" prefHeight="31.0" prefWidth="139.0" AnchorPane.rightAnchor="44.0" />
+      <Label layoutX="1028.0" layoutY="485.0" text="Height" AnchorPane.rightAnchor="198.0">
+         <font>
+            <Font name="Lato Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="1088.0" layoutY="122.0" text="Linear Meters" AnchorPane.rightAnchor="81.0">
+         <font>
+            <Font name="Lato Regular" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="1086.0" layoutY="194.0" text="Square Meters" AnchorPane.rightAnchor="77.0">
+         <font>
+            <Font name="Lato Regular" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="1068.0" layoutY="266.0" text="Total Wastage" AnchorPane.rightAnchor="60.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="1028.0" layoutY="399.0" text=" Window Wastage Useful" AnchorPane.rightAnchor="53.0">
+         <font>
+            <Font name="Lato Regular" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="1030.0" layoutY="316.0" text="Width" AnchorPane.rightAnchor="200.0">
+         <font>
+            <Font name="Lato Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="1028.0" layoutY="353.0" text="Height" AnchorPane.rightAnchor="198.0">
+         <font>
+            <Font name="Lato Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="1032.0" layoutY="442.0" text="Width" AnchorPane.rightAnchor="198.0">
+         <font>
+            <Font name="Lato Regular" size="14.0" />
+         </font>
+      </Label>
+      <ListView fx:id="resultList" layoutX="521.0" layoutY="128.0" prefHeight="322.0" prefWidth="417.0" AnchorPane.bottomAnchor="70.0" AnchorPane.leftAnchor="521.0" AnchorPane.rightAnchor="342.0" AnchorPane.topAnchor="128.0" />
+      <Button layoutX="132.0" layoutY="464.0" mnemonicParsing="false" onAction="#setResultWindows" prefHeight="23.0" prefWidth="111.0" text="Result" AnchorPane.bottomAnchor="25.0" />
+      <Button layoutX="279.0" layoutY="464.0" mnemonicParsing="false" onAction="#callReport" prefHeight="23.0" prefWidth="111.0" text="Report" AnchorPane.bottomAnchor="25.0" />
+      <Line endX="7.0" endY="195.0" layoutX="486.0" layoutY="221.0" startX="7.0" startY="-52.0" AnchorPane.bottomAnchor="103.5" AnchorPane.leftAnchor="492.5" AnchorPane.rightAnchor="786.5" AnchorPane.topAnchor="168.5" />
+      <TextArea fx:id="wastageStateArea" layoutX="806.0" layoutY="55.0" prefHeight="35.0" prefWidth="368.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.15.0.final using JasperReports Library version 6.15.0-dd49bfb94918336b8321d5507193f0169ead4e95  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ResultReport" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="df45fe55-7ee9-416a-8aaa-fd0fddff0f2c">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter (18)"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM `windowsresult` WHERE id = (SELECT `id` FROM `windowsresult` ORDER BY id DESC LIMIT 1)]]>
+	</queryString>
+	<field name="id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="id"/>
+		<property name="com.jaspersoft.studio.field.label" value="id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="windowsresult"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="windowId" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="windowId"/>
+		<property name="com.jaspersoft.studio.field.label" value="windowId"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="windowsresult"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="windowWidth" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="windowWidth"/>
+		<property name="com.jaspersoft.studio.field.label" value="windowWidth"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="windowsresult"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="windowHeight" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="windowHeight"/>
+		<property name="com.jaspersoft.studio.field.label" value="windowHeight"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="windowsresult"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="windowWastageWidth" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="windowWastageWidth"/>
+		<property name="com.jaspersoft.studio.field.label" value="windowWastageWidth"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="windowsresult"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="windowWastageHeight" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="windowWastageHeight"/>
+		<property name="com.jaspersoft.studio.field.label" value="windowWastageHeight"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="windowsresult"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="windowState" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="windowState"/>
+		<property name="com.jaspersoft.studio.field.label" value="windowState"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="windowsresult"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="costumerName" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="costumerName"/>
+		<property name="com.jaspersoft.studio.field.label" value="costumerName"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="windowsresult"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="costumerNumber" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="costumerNumber"/>
+		<property name="com.jaspersoft.studio.field.label" value="costumerNumber"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="windowsresult"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="windowRollWidth" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="windowRollWidth"/>
+		<property name="com.jaspersoft.studio.field.label" value="windowRollWidth"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="windowsresult"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="windowRollHeight" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="windowRollHeight"/>
+		<property name="com.jaspersoft.studio.field.label" value="windowRollHeight"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="windowsresult"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="windowPeice" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="windowPeice"/>
+		<property name="com.jaspersoft.studio.field.label" value="windowPeice"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="windowsresult"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="windowPeiceWastage" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="windowPeiceWastage"/>
+		<property name="com.jaspersoft.studio.field.label" value="windowPeiceWastage"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="windowsresult"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="usefulWastageWidth" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="usefulWastageWidth"/>
+		<property name="com.jaspersoft.studio.field.label" value="usefulWastageWidth"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="windowsresult"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="usefulWastageHeight" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="usefulWastageHeight"/>
+		<property name="com.jaspersoft.studio.field.label" value="usefulWastageHeight"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="windowsresult"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="unusefulWastageWidth" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="unusefulWastageWidth"/>
+		<property name="com.jaspersoft.studio.field.label" value="unusefulWastageWidth"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="windowsresult"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="unusefulWastageHeight" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="unusefulWastageHeight"/>
+		<property name="com.jaspersoft.studio.field.label" value="unusefulWastageHeight"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="windowsresult"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="usefulShowroomWastageWidth" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="usefulShowroomWastageWidth"/>
+		<property name="com.jaspersoft.studio.field.label" value="usefulShowroomWastageWidth"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="windowsresult"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="usefulShowroomWastageHeight" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="usefulShowroomWastageHeight"/>
+		<property name="com.jaspersoft.studio.field.label" value="usefulShowroomWastageHeight"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="windowsresult"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="date" class="java.sql.Date">
+		<property name="com.jaspersoft.studio.field.name" value="date"/>
+		<property name="com.jaspersoft.studio.field.label" value="date"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="windowsresult"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<variable name="totalWastageWidth" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{windowWastageWidth}]]></variableExpression>
+		<initialValueExpression><![CDATA[0]]></initialValueExpression>
+	</variable>
+	<variable name="totalWastageHeight" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{windowWastageHeight}]]></variableExpression>
+		<initialValueExpression><![CDATA[0]]></initialValueExpression>
+	</variable>
+	<variable name="linerMeters" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{windowRollHeight}*$F{windowPeice}]]></variableExpression>
+		<initialValueExpression><![CDATA[0]]></initialValueExpression>
+	</variable>
+	<variable name="squMeters" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[($F{windowHeight}*$F{windowWidth})]]></variableExpression>
+		<initialValueExpression><![CDATA[0]]></initialValueExpression>
+	</variable>
+	<variable name="usefulwindowWasteWidth" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{usefulWastageWidth}]]></variableExpression>
+	</variable>
+	<variable name="usefulWindowWasteHeight" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{usefulWastageHeight}]]></variableExpression>
+	</variable>
+	<variable name="usefulCarsWidth" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{usefulShowroomWastageWidth}]]></variableExpression>
+	</variable>
+	<variable name="usefulcarsHeight" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{usefulShowroomWastageHeight}]]></variableExpression>
+	</variable>
+	<variable name="unusefulWidth" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{unusefulWastageWidth}]]></variableExpression>
+	</variable>
+	<variable name="unusefulHeight" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{unusefulWastageHeight}]]></variableExpression>
+	</variable>
+	<title>
+		<band height="92" splitType="Stretch">
+			<image>
+				<reportElement mode="Transparent" x="750" y="1" width="56" height="30" backcolor="#F0F0F0" uuid="c4898539-a31e-406a-9509-5a36b196f426"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<imageExpression><![CDATA["C:/Program Files/buldingApplication/3M_logo_wordmark.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement mode="Opaque" x="441" y="61" width="162" height="19" backcolor="#F2F2F2" uuid="24b7e4b6-cd60-4e05-8f68-642cf7316379"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{costumerName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="225" y="61" width="130" height="19" backcolor="#F2F2F2" uuid="e5a340b1-0fa4-47a3-b456-86955073795d"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{costumerNumber}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement mode="Opaque" x="603" y="61" width="87" height="19" backcolor="#FAFAFA" uuid="0c175b50-80f8-4c9d-9583-a1849fc1a571"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[اسم العميل ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="355" y="61" width="86" height="19" backcolor="#FAFAFA" uuid="b9a93750-f1f5-4304-9d04-d28d6c689799"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[رقم الجوال]]></text>
+			</staticText>
+			<textField pattern="yyyy/MM/dd">
+				<reportElement mode="Opaque" x="125" y="61" width="55" height="19" backcolor="#F2F2F2" uuid="5a4b64ea-9a24-4854-8203-990fd016fcbe"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement mode="Opaque" x="180" y="61" width="45" height="19" backcolor="#FAFAFA" uuid="c51cf4a6-c09c-4d9e-a923-3a0c72f234fb"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[تاريخ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="225" y="1" width="378" height="60" backcolor="#FAFAFA" uuid="a06ced31-c9f1-4d37-9b6c-0246bf7370bf"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="22" isBold="true"/>
+				</textElement>
+				<text><![CDATA[تقرير تكلفة الأمتار ]]></text>
+			</staticText>
+			<textField>
+				<reportElement mode="Opaque" x="225" y="1" width="54" height="60" backcolor="#F2F2F2" uuid="de28b1e9-e893-4e30-8baf-8552e43f7ce0"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="22"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="0" y="0" width="83" height="47" uuid="922fdac5-46f0-467e-910f-fc7c1d4d4a1b"/>
+				<imageExpression><![CDATA["C:/Program Files/buldingApplication/AutopioneerLogo.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="371" splitType="Stretch">
+			<textField>
+				<reportElement mode="Opaque" x="405" y="2" width="130" height="30" backcolor="#F2F2F2" uuid="fbe9cbec-3568-4e17-a1ce-559096847946"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{windowId}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="405" y="32" width="130" height="30" backcolor="#F2F2F2" uuid="7b6f5552-84c8-4de9-bd7e-43514a5851dc"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{windowWidth}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="405" y="62" width="130" height="30" backcolor="#F2F2F2" uuid="9ad6126b-055d-4aba-aa65-37843f0476df"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{windowHeight}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="405" y="122" width="130" height="30" backcolor="#F2F2F2" uuid="69ca5697-bd4b-4201-ac60-2d4955793bf3"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{windowWastageWidth}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="405" y="152" width="130" height="30" backcolor="#F2F2F2" uuid="6cc2df00-6604-4f04-ae36-d0eb89004d1c"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{windowWastageHeight}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="405" y="242" width="130" height="30" backcolor="#F2F2F2" uuid="9e42cd91-fa8c-4684-8cfe-c144a6192641"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{windowRollHeight}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="405" y="212" width="130" height="30" backcolor="#F2F2F2" uuid="c72cb600-984b-407f-aec0-71a965242bdc"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{windowRollWidth}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="405" y="272" width="130" height="30" backcolor="#F2F2F2" uuid="e0ba7d2c-a29f-4d04-85a2-01bf85625988"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{windowPeice}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="125" y="272" width="116" height="30" backcolor="#F2F2F2" uuid="9bc684f1-f3ed-4c7b-bc56-4372effe25b1"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{windowPeiceWastage}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="125" y="62" width="117" height="30" backcolor="#F2F2F2" uuid="41f273d9-20b4-4dfc-98b7-a9ef526257eb"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{usefulWastageHeight}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="125" y="32" width="117" height="30" backcolor="#F2F2F2" uuid="a876fa44-68e7-4f20-8ab6-19c9f990703c"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{usefulWastageWidth}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="125" y="122" width="117" height="30" backcolor="#F2F2F2" uuid="bd5c7253-738d-4a48-bfd8-588c3095a96f"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{usefulShowroomWastageWidth}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="125" y="152" width="117" height="30" backcolor="#F2F2F2" uuid="934cfd14-4686-433b-9168-f328bf22a7a1"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{usefulShowroomWastageHeight}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="125" y="242" width="117" height="30" backcolor="#F2F2F2" uuid="1f22eba1-1c0c-4bf5-be9e-49508fb0b52c"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unusefulWastageHeight}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="125" y="212" width="117" height="30" backcolor="#F2F2F2" uuid="97dcf65d-0b4f-4a6e-8973-13f42f4fa791"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unusefulWastageWidth}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="125" y="332" width="565" height="28" backcolor="#F2F2F2" uuid="3d6e8e98-e439-4b11-9d2b-212811f7c0bc"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{windowState}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement mode="Opaque" x="551" y="2" width="139" height="30" backcolor="#FAFAFA" uuid="e09d5414-b407-4596-b7e6-1d0f46794801"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[رقم النافذة : ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="551" y="62" width="139" height="30" backcolor="#FAFAFA" uuid="b2dae646-4416-43cc-8af7-28ddf37d4ac7"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[طول النافذة ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="551" y="32" width="139" height="30" backcolor="#FAFAFA" uuid="6708e13e-748f-4aff-bf82-72490d01f4d2"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[عرض النافذة]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="551" y="122" width="139" height="30" backcolor="#FAFAFA" uuid="774be096-8f95-474e-b403-d95b3139ccf1">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[عرض ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="551" y="152" width="139" height="30" backcolor="#FAFAFA" uuid="76c2188c-cf69-46fb-a0c1-6b1d9b0d08e8">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[طول]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="405" y="92" width="285" height="30" backcolor="#FAFAFA" uuid="9b8e04d5-1184-49dd-a024-b557d61a68f5"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[هدر النافذة]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="551" y="242" width="139" height="30" backcolor="#FAFAFA" uuid="f6b5e5e2-f8eb-434a-bfd8-70a9a45f3e8f">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[طول]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="551" y="212" width="139" height="30" backcolor="#FAFAFA" uuid="43e8f23d-72db-42fb-9276-99d8eeaa5ed8">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[عرض ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="405" y="182" width="285" height="30" backcolor="#FAFAFA" uuid="468c028e-33e1-4262-871f-1ef529b6818f"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[يتم السحب من الرول]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="551" y="272" width="139" height="30" backcolor="#FAFAFA" uuid="0f38f301-16c0-44cb-b9b5-a615e63f6e68"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[قطع التركيب]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="258" y="272" width="130" height="30" backcolor="#FAFAFA" uuid="f97a9bfc-25df-4fa5-92f1-edd561cbe703"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[قطع الهدر]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="258" y="32" width="131" height="30" backcolor="#FAFAFA" uuid="81e9a091-9d4e-48b1-9360-16ac6fe904b0">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[عرض ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="258" y="62" width="131" height="30" backcolor="#FAFAFA" uuid="c76acc64-a5b4-4729-9da4-95d6cdd9bc9a">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[طول]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="125" y="2" width="264" height="30" backcolor="#FAFAFA" uuid="d20df387-5690-4268-92ec-d9c606c3e4fb"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[الهدر المفيد للنوافذ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="258" y="122" width="131" height="30" backcolor="#FAFAFA" uuid="5ab265dc-05e6-401b-bad4-5fe03dc2c98e">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[عرض ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="258" y="152" width="131" height="30" backcolor="#FAFAFA" uuid="ea11af84-1e89-4ea9-a492-48364e52b1fb">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[طول]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="125" y="92" width="264" height="30" backcolor="#FAFAFA" uuid="207835b3-0f9d-42db-9478-9da5fa1ebcc8"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[الهدر المفيد للسيارات]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="125" y="182" width="264" height="30" backcolor="#FAFAFA" uuid="2fb6d9d8-f960-4746-bef0-3a3e536c1bf8"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[الهدر الغير مفيد]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="258" y="242" width="131" height="30" backcolor="#FAFAFA" uuid="8766c520-1b84-4625-9597-7d734b287c5f"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[طول]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="258" y="212" width="131" height="30" backcolor="#FAFAFA" uuid="deee1aeb-50ed-47c0-837e-b4d82002d4f1">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[عرض ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="125" y="302" width="565" height="30" backcolor="#FAFAFA" uuid="93aba5b5-dca9-4919-9b73-e1f5724ad18f"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ملاحظة]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="70" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Opaque" x="460" y="30" width="81" height="20" backcolor="#FAFAFA" uuid="304fea40-26bd-4ce4-83ad-a8bb33c3b1c8"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[مربع]]></text>
+			</staticText>
+			<textField>
+				<reportElement mode="Opaque" x="125" y="30" width="55" height="20" backcolor="#F2F2F2" uuid="b26977c8-318a-4360-87cc-432254f8b0b2"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{unusefulWidth}/100]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="395" y="50" width="65" height="20" backcolor="#F2F2F2" uuid="bd96b8a6-b81d-49c9-a18d-970a7bb1760a"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{linerMeters}/100]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="314" y="50" width="36" height="20" backcolor="#F2F2F2" uuid="dbd0b5a3-3ee0-4f20-9736-5214c309f049"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{usefulWindowWasteHeight}/100]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="541" y="50" width="69" height="20" backcolor="#F2F2F2" uuid="de8e7d35-0a7e-4af4-9667-b2a8c815538c"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{totalWastageHeight}/100]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement mode="Opaque" x="314" y="0" width="81" height="30" backcolor="#FAFAFA" uuid="97dd4a4b-a130-4ed8-91cf-f1c5d7044f9a"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[مفيد للنوافذ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="270" y="30" width="44" height="20" backcolor="#FAFAFA" uuid="40f8462e-bb30-42be-8725-a77d71188258"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[عرض]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="270" y="50" width="44" height="20" backcolor="#FAFAFA" uuid="95fe4f81-faa1-4316-9c0e-6a424849c239"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[طول]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="395" y="0" width="146" height="30" backcolor="#FAFAFA" uuid="3d936f42-9c93-4c0f-9a64-b326c1a6b541"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[مجموع الأمتار]]></text>
+			</staticText>
+			<textField>
+				<reportElement mode="Opaque" x="229" y="30" width="41" height="20" backcolor="#F2F2F2" uuid="5425a735-940d-446a-81ab-614acdba38b8"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{usefulCarsWidth}/100]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement mode="Opaque" x="610" y="50" width="80" height="20" backcolor="#FAFAFA" uuid="c166c741-c5bd-4a79-b1d1-625f7fc4315e"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[طول]]></text>
+			</staticText>
+			<textField>
+				<reportElement mode="Opaque" x="229" y="50" width="41" height="20" backcolor="#F2F2F2" uuid="317c8e9b-31f0-4ed1-a9da-8faa5aaa8fef"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{usefulcarsHeight}/100]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement mode="Opaque" x="180" y="50" width="49" height="20" backcolor="#FAFAFA" uuid="b78d94d3-91f0-44f0-a3cb-ad0cd48f9fed"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[طول]]></text>
+			</staticText>
+			<textField>
+				<reportElement mode="Opaque" x="314" y="30" width="36" height="20" backcolor="#F2F2F2" uuid="3d066e7b-cb08-44e6-a7ce-7e379d593c00"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{usefulwindowWasteWidth}/100]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement mode="Opaque" x="395" y="30" width="65" height="20" backcolor="#F2F2F2" uuid="c322fb60-79f2-4311-9ff6-e3fa487afd6a"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{squMeters}/10000]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement mode="Opaque" x="460" y="50" width="81" height="20" backcolor="#FAFAFA" uuid="2f3bcff4-8f05-4eac-a59e-a4d738aab3f3"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[طولي]]></text>
+			</staticText>
+			<textField>
+				<reportElement mode="Opaque" x="541" y="30" width="69" height="20" backcolor="#F2F2F2" uuid="8f78f38c-1094-479c-a077-8ced2a8eb741"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{totalWastageWidth}/100]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement mode="Opaque" x="610" y="30" width="80" height="20" backcolor="#FAFAFA" uuid="e2bbd871-943c-4046-bab1-2e74067cbc5a"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[عرض]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="180" y="30" width="49" height="20" backcolor="#FAFAFA" uuid="62eeaf66-4173-44ae-be4b-52228113dbd8"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[عرض]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="125" y="0" width="104" height="30" backcolor="#FAFAFA" uuid="b874e2d6-11e4-4d3e-a39a-5e336038956b"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[غير مفيد]]></text>
+			</staticText>
+			<textField>
+				<reportElement mode="Opaque" x="125" y="50" width="55" height="20" backcolor="#F2F2F2" uuid="0fc2b54d-e751-4723-8a66-ba284b5edcf8"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{unusefulHeight}/100]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement mode="Opaque" x="229" y="0" width="85" height="30" backcolor="#FAFAFA" uuid="39dd1a97-a08e-4c61-ba3e-c3ada949e318"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[مفيد للسيارات]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="350" y="50" width="45" height="20" backcolor="#FAFAFA" uuid="1f581d17-ff8e-4282-830d-a10c33ce406b"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[طول]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="350" y="30" width="45" height="20" backcolor="#FAFAFA" uuid="e46b91a4-bc89-455f-954f-c60f7eed43d0"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[عرض]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="541" y="0" width="149" height="30" backcolor="#FAFAFA" uuid="c71e75f9-828b-4ca2-8891-f451232212eb"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[الهدر الباقي ]]></text>
+			</staticText>
+		</band>
+	</summary>
+</jasperReport>

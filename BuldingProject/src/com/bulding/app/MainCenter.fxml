@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bulding.app.MainCenterController">
+	<center>
+		<TabPane prefHeight="434.0" prefWidth="402.0"
+			tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+			<tabs>
+				<Tab fx:id="tapMainPane" text="MAIN">
+					<fx:include fx:id="tapFile" source="mainPane.fxml" />
+				</Tab>
+				<Tab fx:id="tapSearchPane" text="SEARCH">
+				<fx:include fx:id="tapFile" source="SearchPane.fxml" />
+				</Tab>
+				</tabs>
+				</TabPane>
+				</center>
+</BorderPane>
+
